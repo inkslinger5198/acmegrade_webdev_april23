@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        body 
+        {
+            background-image: url(../Shared/Background\ 6.jpg);
+            background-position: center;
+            margin:10px;
+            background-repeat: no-repeat;
+            background-attachment: fixed ;
+            background-size: cover;
+            height: 100vh;
+            overflow: scroll;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body::-webkit-scrollbar 
+        {
+            width: 2px;
+            height: 0;
+        }
+        body::-webkit-scrollbar-track 
+        {
+            background-color: #f1f1f1;
+        }
+
+        body::-webkit-scrollbar-thumb 
+        {
+            background-color: #888;
+            border-radius: 4px;
+        }
+        body::-webkit-scrollbar-thumb 
+        {
+            background-color: #555;
+        }
+        .bg-bg 
+        {
+            background-color: hsla(197, 6%, 76%, 0.7);
+            border-radius: 12px;
+        }
+        
+        .pb-2 
+        {
+            color: rgb(0, 0, 0);
+        }
+        .header 
+        {
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            margin-bottom: 40px ;
+        }
+        .tab 
+        {
+            display: inline-block;
+            margin-right: 10px;
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        .tab:hover 
+        {
+            color: rgb(185, 235, 176);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+        <a href="Accounts.php" class="tab">Account</a> 
+        <a href="home.php" class="tab">View Products</a>
+        <a href="viewcart.php" class="tab">View cart</a>
+        <a href="vieworders.php" class="tab">View Orders</a> 
+        <a href="../shared/logout.php" class="tab">Logout</a>
+    </div>
+  </body>
+</html>
